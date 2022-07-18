@@ -7,7 +7,7 @@ on:
       - master
 jobs:
   contributors:
-    runs-on: ubuntu-latest
+    runs-on: My31ren
     steps:
       - uses: wow-actions/contributors-list@v1
         with:
