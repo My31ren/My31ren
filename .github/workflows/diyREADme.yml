@@ -7,7 +7,6 @@ on:
 jobs:
   contrib-readme-en-job:
     runs-on: ubuntu-latest
-    name: A job to automate contrib in readme
     steps:
       - uses: wow-actions/contributors-list@v1
         with:
