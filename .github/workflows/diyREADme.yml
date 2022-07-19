@@ -11,10 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to automate contrib in readme
     steps:
-      - uses: wow-actions/contributors-list@v1
+      - uses: wow-actions/contributors-list@v1.0.8
         with:
           GITHUB_TOKEN: ${{ secrets.CONTRIBUTORS_TOKEN }}
-          round: true
           userNameHeight: 19
           itemTemplate: >
             <g transform="translate({{ x }}, {{ y }})">
