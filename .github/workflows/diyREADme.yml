@@ -12,4 +12,4 @@ jobs:
       - uses: wow-actions/contributors-list@v1.0.8
         with:
           GITHUB_TOKEN: ${{ secrets.CONTRIBUTORS_TOKEN }}
-          round: true
+          round: false
