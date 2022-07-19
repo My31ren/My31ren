@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to automate contrib in readme
     steps:
-      - uses: wow-actions/contributors-list@v1.0.8
+      - uses: wow-actions/contributors-list@v1
         with:
           GITHUB_TOKEN: ${{ secrets.CONTRIBUTORS_TOKEN }}
           round: true
