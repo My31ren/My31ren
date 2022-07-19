@@ -5,7 +5,7 @@ on:
       - master
 
 # action 名称
-name: Contributes
+name: Contris
 
 jobs:
   # 任务
