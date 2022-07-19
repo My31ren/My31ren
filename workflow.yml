@@ -1,4 +1,4 @@
-name: Contributors list
+name: Contributors
 on:
   schedule:
     - cron: '0 1 * * 0' # At 01:00 on Sunday.
@@ -7,16 +7,9 @@ on:
       - master
 jobs:
   contributors:
-    runs-on: My31ren
+    runs-on: ubuntu-latest
     steps:
       - uses: wow-actions/contributors-list@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          userNameHeight: 19
-          itemTemplate: >
-            <g transform="translate({{ x }}, {{ y }})">
-              <a xlink:href="{{{ url }}}" class="contributor-link" target="_blank" rel="nofollow sponsored" title="{{{ name }}}" id="{{{ name }}}">
-                <image width="{{ width }}" height="{{ height }}" xlink:href="{{{ avatar }}}" />
-                <text x="32" y="74" text-anchor="middle" alignment-baseline="middle" font-size="10">{{{ name }}}</text>
-              </a>
-            </g>
+          round: false
