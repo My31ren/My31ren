@@ -14,15 +14,4 @@ My31ren/My31ren is just my private repository for storing my learning note on R/
 
 ![](https://github-readme-stats.vercel.app/api?username=My31ren)
 
-name: Contributor List
-on:
-  push:
-    branches:
-      - master
-jobs:
-  contributor_list:
-    name: Contributor List
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - uses: docker://cjdenio/contributor_list:latest
+
