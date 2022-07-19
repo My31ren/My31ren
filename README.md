@@ -23,7 +23,7 @@ My31ren/My31ren is just my private repository for storing my learning note on R/
         <a href="https://github.com/lcxaxx">
             <img src="https://avatars.githubusercontent.com/u/108651830?v=4" width="100;" alt="lcxaxx"/>
             <br />
-            <sub><b>lcxaxx</b></sub>
+            <sub><b>Lcxaxx</b></sub>
         </a>
     </td></tr>
 </table>
