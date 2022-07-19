@@ -4,7 +4,7 @@ name: contributors
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   contrib-readme-en-job:
