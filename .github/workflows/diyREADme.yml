@@ -13,6 +13,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.CONTRIBUTORS_TOKEN }}
           round: true
+          svgPath: CONTRIBUTORS.svg
           userNameHeight: 19
           itemTemplate: >
             <g transform="translate({{ x }}, {{ y }})">
@@ -21,3 +22,4 @@ jobs:
                 <text x="32" y="74" text-anchor="middle" alignment-baseline="middle" font-size="10">{{{ name }}}</text>
               </a>
             </g>
+           
