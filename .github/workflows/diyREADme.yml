@@ -1,19 +1,17 @@
-# 监听 master 分支
+
+name: contributors
+
 on:
   push:
     branches:
       - main
 
-# action 名称
-name: contributors
-
 jobs:
-  # 任务
   contrib-readme-en-job:
     runs-on: ubuntu-latest
     name: A job to automate contrib in readme
     steps:
-      - name: Contribute List
-        uses: akhilmhdh/contributors-readme-action@v2.3.4
-        env:
+      - uses: wow-actions/contributors-list@v1.0.8
+        with:
           GITHUB_TOKEN: ${{ secrets.CONTRIBUTORS_TOKEN }}
+          round: false
