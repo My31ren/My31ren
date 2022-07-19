@@ -10,7 +10,7 @@ My31ren/My31ren is just my private repository for storing my learning note on R/
 ## Contributors and Collaborators
 
 <!-- readme: collaborators,contributors -start -->
-<img src="./contributors.svg">
+<img src="./CONTRIBUTORS.svg">
 <!-- readme: collaborators,contributors -end -->
 
 ![](https://github-readme-stats.vercel.app/api?username=My31ren&show_icons=true&theme=radical)
