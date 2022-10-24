@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @My31ren
 - 👀 I’m interested in biomedical related statistic, including environmental, choronic disease and reproductive epidemiology related statistics by using R/SAS code
-- 🌱 I’m currently learning on building R package 111
+- 🌱 I’m currently learning on building R package
 
 
 <!---
