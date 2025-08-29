@@ -1,10 +1,11 @@
 - 👋 Hi, I’m @My31ren
-- 👀 I’m interested in biomedical related statistic, including environmental, choronic disease and reproductive epidemiology related statistics by using R/SAS code
-- 🌱 I’m currently learning on building R package
+- 👀 I'm working as a postdoc in Emory University. I have interests using advanced biostatistics as well as machine learning algorithms to really understand how environmental exposures contribute to human health. 
+- 🌱 I'm proficient in R and SAS, with extra interests in Python.
+- Welcome to connect, and collaborate!
 
 
 <!---
-My31ren/My31ren is just my private repository for storing my learning note on R/SAS code for now 
+My31ren/My31ren is just my private repository for storing my learning note on R/SAS codes, as well as code/output files for my research papers published.
 --->
 
 ## Contributors and Collaborators
